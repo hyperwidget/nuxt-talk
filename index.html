@@ -1,50 +1,269 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-		<title>reveal.js</title>
+    <title>reveal.js</title>
 
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/reveal.css" />
+    <link rel="stylesheet" href="css/theme/black.css" />
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/monokai.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/monokai.css" />
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+    <style>
+      .caption {
+        font-size: 10px;
+      }
+    </style>
 
-		<script src="js/reveal.js"></script>
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.type = "text/css";
+      link.href = window.location.search.match(/print-pdf/gi)
+        ? "css/print/pdf.css"
+        : "css/print/paper.css";
+      document.getElementsByTagName("head")[0].appendChild(link);
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section class="stack">
+          <section><h1>What's NUXT?</h1></section>
+          <section><h1>Getting started with Server Side Rendering</h1></section>
+          <section>
+            <h1>A quick start guide for deploying a SSR app</h1>
+          </section>
+          <section>
+            <h1>From 0 to GO in 15 minutes:</h1>
+            <h2>A Nuxt Love Story</h2>
+          </section>
+        </section>
+        <section>
+          <h1>Oh hi 👋</h1>
+          <h2>I'm Hunter</h2>
+        </section>
+        <section>
+          <h1>The game plan</h1>
+          <ol>
+            <li>What the snap is SSR?</li>
+            <li class="fragment">K fine, what's Nuxt?</li>
+            <li class="fragment">
+              The SSR `Zeit` geist
+              <p class="caption">(#lol)</p>
+            </li>
+            <li class="fragment">Let's do some stuff</li>
+            <li class="fragment">✨</li>
+            <li class="fragment">Bonus round? 🙏</li>
+            <li class="fragment">K, bye</li>
+          </ol>
+        </section>
+        <section>
+          <section>
+            <h1>SSR - What it be</h1>
+            <p class="caption">
+              Sounds
+              <q>awfully</q>
+              close to USSR . . .Coincidence? 🤔
+            </p>
+            <br />
+            <p>SSR stand for `Server Side Rendering`</p>
+            <p>
+              Performs all of the initial render logic for a page visit on the
+              server, serving the already `rendered` page to the browser on load
+            </p>
+          </section>
+          <section>
+            <h1>Y tho?</h1>
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				hash: true,
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/highlight/highlight.js' },
-					{ src: 'plugin/notes/notes.js', async: true }
-				]
-			});
-		</script>
-	</body>
+            <ul>
+              <li class="fragment">SEO!</li>
+              <li class="fragment"><q>Perceived</q> performance improvement</li>
+              <li class="fragment">Perfect for Static sites</li>
+              <li class="fragment">
+                You can tell your friends that you're cool 😎
+              </li>
+            </ul>
+          </section>
+          <section>
+            <h1>Pitfalls</h1>
+            <p class="caption">
+              //TODO -- insert image of oldschool Atari game
+            </p>
+            <ul>
+              <li class="fragment">A longer TTFB (Time to first byte)</li>
+              <li class="fragment">
+                You can't serve an app from s3 or any other file bucket
+              </li>
+              <li class="fragment">Common patterns may not work 😱</li>
+            </ul>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h1>Let's get our Nuxts in a row</h1>
+            <q
+              >Nuxt is a framework designed to give you a strong architecture
+              following official Vue guidelines. Incrementally adoptable, it can
+              be used to create from static landing pages to complex enterprise
+              ready web applications.</q
+            >
+          </section>
+          <section>
+            <h1>Y Nuxt tho?</h1>
+            <p>
+              Nuxt is a direct comparison to Next - why would I choose Nuxt?
+            </p>
+            <ul>
+              <li class="fragment">I love Vue!</li>
+              <li class="fragment">I like to keep it spicy 🌶</li>
+              <li class="fragment">CLI tools 🛠</li>
+              <li class="fragment">Documentation</li>
+            </ul>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h3><q>"All Zeit All Zeit, All Zeit"</q> - Matthew McConaughey</h3>
+            <br />
+            <p>
+              <q
+                >ZEIT Now is the optimal workflow for frontend teams.
+                All-in-one: Static and JAMstack deployment, Serverless
+                Functions, and Global CDN.</q
+              >
+            </p>
+          </section>
+          <section>
+            <p>
+              Basically Zeit is a FED's best buddy that allows for ezpz (🍋)
+              deployment of sites of all shapes. It can handle static sites,
+              client rendered SPAs, and SSR apps among other things. The best
+              part is that it's <q>ridiculously</q> simple
+            </p>
+            <p class="caption">I am open to sponsors, just sayin' >_></p>
+          </section>
+        </section>
+
+        <section>
+          <section data-background-image="images/live.gif"></section>
+          <section>
+            <h1>But first . . .</h1>
+            <ul>
+              <li>Install NPM</li>
+              <li>Sign up for a zeit account!</li>
+            </ul>
+          </section>
+          <section>
+            <h1>K fine, I guess it's live demo time</h1>
+            <p class="caption">Don't try this at home, folks</p>
+            <p class="caption">But I mean, actually do. . .</p>
+          </section>
+        </section>
+        <section>
+          <h1>Recap</h1>
+          <ul>
+            <li class="fragment">
+              Using Nuxt cli we can quickly and easily spin up a new vue app
+            </li>
+            <li class="fragment">
+              Using Zeit we are able to simply deploy an SSR app
+            </li>
+            <li class="fragment">
+              Updating your live app is as simple as pushing a target branch
+              upstream
+            </li>
+            <li class="fragment">
+              <p class="caption">
+                I guess I should ask if anyone has questions. . . .bueller?
+              </p>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <section data-background-image="images/bonux.gif">
+            <h1>BONUS TIME</h1>
+          </section>
+          <section>
+            <h1>
+              Let's make a server (lol, y not)
+            </h1>
+            <p>
+              We're going to spin up a _super_ simple express server and deploy
+              it heroku
+            </p>
+            <p>Then we're going to hook our nuxt app up to our new server</p>
+            <p class="caption">ez rite? 🙃</p>
+          </section>
+          <section>
+            <h1>
+              Pre-reqs
+            </h1>
+            <ul>
+              <li>A heroku account</li>
+              <li>Setting up the heroku cli</li>
+              <li>npm installed</li>
+            </ul>
+          </section>
+          <section data-background-image="images/demo2.gif">
+            <h1>DEMO TIME . . . AGAIN</h1>
+          </section>
+        </section>
+        <section>
+          <h1>Recap Redux</h1>
+          <ul>
+            <li class="fragment">We spun up an express server</li>
+            <li class="fragment">Updated routing</li>
+            <li class="fragment">Deployed to heroku using CLI</li>
+            <li class="fragment">Updated our app to use our new remote!</li>
+          </ul>
+        </section>
+        <section>
+          <h1>Recap: The final Recappening</h1>
+          <ul>
+            <li class="fragment">
+              It's actually <q>really</q> easy to get a fullstack app spun up
+              and deployed
+            </li>
+            <li class="fragment">These tools are mature and ✨magic✨</li>
+            <li class="fragment">
+              You should probably make your own super neat app!
+            </li>
+          </ul>
+        </section>
+        <section>
+          <img src="images/clap.gif" />
+        </section>
+        <section>
+          <h1>...</h1>
+          <img src="images/questions.gif" />
+        </section>
+      </div>
+    </div>
+
+    <script src="js/reveal.js"></script>
+
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+        hash: true,
+        dependencies: [
+          { src: "plugin/markdown/marked.js" },
+          { src: "plugin/markdown/markdown.js" },
+          { src: "plugin/highlight/highlight.js" },
+          { src: "plugin/notes/notes.js", async: true }
+        ]
+      });
+    </script>
+  </body>
 </html>
